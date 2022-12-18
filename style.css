@@ -1,0 +1,23 @@
+.h-100vh {
+  height: 100vh;
+}
+
+.bg-cookies {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(to bottom, rgb(255 255 255 / 65%) 0% ,rgb(255 255 255 / 65%) 100%), url(cookies.jpg);
+}
+
+.backdrop {
+    backdrop-filter: blur(10px);
+    
+}
+
+.bg-cozonac {
+    background-color: #f6ae81;
+}
+
+input:checked + label {
+    text-decoration: line-through;
+} 
